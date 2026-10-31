@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fa" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="fw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 92 C 180 40, 320 128, 520 84 C 700 44, 840 120, 1020 78 C 1100 60, 1160 66, 1200 58 L1200 140 L0 140 Z" fill="url(#fw)"/>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#fa)" stroke-width="2" opacity="0.65"/>
+  <text x="600" y="112" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8B949E">designed &amp; built with intent</text>
+</svg>

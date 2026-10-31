@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Bong Coder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#121B2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.12" cy="0.05" r="0.85">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#22303F"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#dots)" opacity="0.5"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="5" fill="url(#accent)"/>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="80" y="112" fill="#F8FAFC" font-size="60" font-weight="800" letter-spacing="2">BONG CODER</text>
+    <text x="80" y="160" fill="url(#accent)" font-size="23" font-weight="600" letter-spacing="1.2">Developer &#183; TypeScript &#183; React &#183; Civic Tech</text>
+    <text x="80" y="200" fill="#94A3B8" font-size="17">Building digital public infrastructure &#8212; paper records to live data.</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="80" y="243" fill="#8B949E" font-size="16">github.com/bongcoder09x</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="808" y="62" width="322" height="176" rx="14" fill="#0B1220" stroke="#1F2937" stroke-width="1.5"/>
+    <circle cx="832" cy="86" r="5" fill="#F87171"/>
+    <circle cx="850" cy="86" r="5" fill="#FBBF24"/>
+    <circle cx="868" cy="86" r="5" fill="#34D399"/>
+    <line x1="808" y1="104" x2="1130" y2="104" stroke="#1F2937" stroke-width="1.2"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+      <text x="832" y="132" fill="#7DD3FC">const</text>
+      <text x="882" y="132" fill="#E2E8F0">dev = {</text>
+      <text x="846" y="156" fill="#94A3B8">name:</text>
+      <text x="902" y="156" fill="#A5F3FC">'Bong Coder',</text>
+      <text x="846" y="180" fill="#94A3B8">stack:</text>
+      <text x="910" y="180" fill="#C4B5FD">[React, TS],</text>
+      <text x="846" y="204" fill="#94A3B8">focus:</text>
+      <text x="910" y="204" fill="#A5F3FC">'civic tech',</text>
+      <text x="832" y="228" fill="#E2E8F0">};</text>
+    </g>
+  </g>
+</svg>
